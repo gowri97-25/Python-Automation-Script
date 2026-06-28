@@ -1,0 +1,6 @@
+type,title,director,country,release_year,rating
+Movie,Example Movie 1,Director A,India,2021,PG-13
+Movie,Example Movie 2,Director B,USA,2020,R
+TV Show,Example Show 1,Director C,UK,2022,TV-MA
+Movie,Example Movie 3,,India,2019,PG
+TV Show,Example Show 2,,USA,2023,TV-14
