@@ -1,53 +1,19 @@
-# Python File Organizer (Internship Task 1)
+# Weather API Project
 
-## 📌 Objective
-This project automatically organizes files in a folder based on their type (images, documents, audio, etc.).
+## Objective
+Get real-time weather data using OpenWeather API.
 
----
+## Features
+- City-based weather search
+- Temperature in °C
+- Weather condition
+- Humidity level
 
-## ⚙️ Features
-- Reads all files from a folder
-- Creates folders automatically (Images, Documents, Audio, Others)
-- Moves files into correct folders
-- Logs all operations into logs.txt
-- Handles errors using exception handling
-
----
-
-## 🛠️ Technologies Used
+## Tech Used
 - Python
-- OS Module
-- Shutil Module
+- Requests library
+- OpenWeather API
 
----
-
-## 📂 Project Structure
-Python-Automation-Script/
-│── automation.py
-│── logs.txt
-│── README.md
-│── test_folder/
-
----
-
-## ▶️ How to Run
-1. Open VS Code
-2. Run automation.py
-3. Enter folder path
-4. Files will be organized automatically
-
----
-
-## 📸 Output
-Files are automatically moved into:
-- Images/
-- Documents/
-- Audio/
-- Others/
-
-Logs are stored in logs.txt
-
----
-
-## 👨‍💻 Author
-Internship Project - InternSpark
+## How to Run
+pip install requests  
+python weather.py
